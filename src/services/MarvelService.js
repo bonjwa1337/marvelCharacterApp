@@ -1,6 +1,6 @@
 ﻿class MarvelService {
     _apiBase = 'https://gateway.marvel.com:443/v1/public/';
-    _apiKey = process.env.REACT_APP_API_KEY;
+    _apiKey = 'apikey=80fe7cda426458fa9a1b2a1612e96502';
 
     getResource = async (url) => {
         let res = await fetch(url);

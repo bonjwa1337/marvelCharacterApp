@@ -22,6 +22,7 @@ class App extends Component {
 
 
     render() {
+        console.log(process.env.MARVEL_APP_API_KEY)
         return (
             <div className="app">
                 <AppHeader/>
